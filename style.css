@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    
+    
+}
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: none;
+
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  padding-bottom: 20%;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-family: "Sofia";
+  font-size: 20px;
+
+  	
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+}
+.hero-text button {
+  border: none;
+  outline-color: 0;
+  display: inline-block;
+  padding: 5px 20px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline-color: white;
+
+}
+
+.hero-text button:hover {
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.cover-letter {
+  padding-left: 30px;
+  font-family: "Times New Roman";
+}
+
+.modal-header {
+ border: none;
+ padding: none;
+ margin: none;
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.modal-title {
+  color: black;
+}
+.modal-body {
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+.modal-content{
+  text-align: center;
+  
+
+}
+
+
+
+
