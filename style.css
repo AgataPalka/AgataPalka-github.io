@@ -1,8 +1,12 @@
 body, html {
     height: 100%;
-    
-    
-}
+    }
+
+@media only screen and (max-device-width: 480px) {
+  div {
+    display: all;
+  }
+
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -59,16 +63,12 @@ h2 {
 }
 
 .hero-text button:hover {
-  background-color: green;
-  color: white;
+  background-color: #BCE954;
+  color: grey;
   border: none;
   outline: none;
 }
 
-.cover-letter {
-  padding-left: 30px;
-  font-family: "Times New Roman";
-}
 
 .modal-header {
  border: none;
